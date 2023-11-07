@@ -1,18 +1,33 @@
-## Getting Started
+# Password Generator Project
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Overview
+This is a simple password generator project that allows you to generate strong and random passwords for your online accounts and other security needs. This project is written in java and provides a basic user interface for generating passwords.
 
-## Folder Structure
+## Features
+- Generates strong, random passwords with customizable options.
+- Specify the length of the generated password.
+- Include or exclude uppercase letters, lowercase letters, numbers, and special characters.
+- Copy the generated password to the clipboard for easy use.
 
-The workspace contains two folders by default, where:
+## Usage
+To use the password generator, follow these steps:
+1. Clone or download the project to your local machine.
+2. Compile and run the PasswordGenerator.java file
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Configuration
+You can customize the password generation by modifying the following strings:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- `PASSWORD_LENGTH`: Set the desired length of the generated password.
+- `INCLUDE_UPPERCASE`: Set to `True` to include uppercase letters.
+- `INCLUDE_LOWERCASE`: Set to `True` to include lowercase letters.
+- `INCLUDE_NUMBERS`: Set to `True` to include numbers.
+- `INCLUDE_SPECIAL_CHARACTERS`: Set to `True` to include special characters.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Dependencies
+There are no external dependencies for this project; it uses only the standard Java libraries.
 
-## Dependency Management
+## Author
+schema
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Support or Contact
+If you encounter any issues or have questions, feel free to contact me at schemadev@duck.com.
