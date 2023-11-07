@@ -4,12 +4,6 @@ import java.util.Random;
 import java.awt.datatransfer.StringSelection;
 import java.awt.datatransfer.Clipboard;
 
-/*
-@author Avery Swinimer
-@name Password Generator 
-@date June 16th, 2023
-*/
-
 public class PasswordGenerator extends JFrame {
 
   // Declares private instance variables for GUI components
